@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+ <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Personal Portifolio Website by Venantio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/dbedd0b16f.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+     <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/A letter Logo design.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <!--<li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>-->
+                    <li><a href="#portfolio">My Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+
+                </ul>
+                
+            </nav>
+            <div class="header-text">
+                <p>Systems Developer</p>
+                <h1>Hie, I'm <span>Venantio</span> <br> From Zimbabwe</h1>
+            </div>
+        </div>
+     </div>  
+     <!----------------about------------>
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/pexels-athena-2582937.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Hi, I’m Venantio Kudakwashe, a recent graduate in Information Technology from Chinhoyi University of Technology. I’m passionate about using technology to solve real-world problems and create meaningful impact.
+
+Over the past few years, I’ve built a strong foundation in software development, data science, and analytics, earning industry-recognized certifications from IBM, HP, and Dataquest in areas such as Python programming, SQL, and data analysis. My academic journey was capped by a dissertation project where I developed an online tutoring system to connect underprivileged students with volunteer tutors, combining my technical skills with a mission-driven purpose.
+
+I enjoy working on web development projects, exploring modern frameworks, and continuously expanding my knowledge in cloud technologies, databases, and full-stack development. My strength lies in being adaptable — whether it’s coding, analyzing data, or designing systems, I’m always eager to learn and apply new tools to deliver effective solutions.
+
+Looking ahead, I’m focused on building a career where I can contribute to innovative IT projects, sharpen my skills, and grow into a professional who bridges technical expertise with creative problem-solving.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>System Developer</span><br>Developing Web/App Systems</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS Apps</li>
+                        </ul>
+                    </div>
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2025 - Current</span><br>Internship at Hex Softwares</li>
+                            <li><span>2023 -2024</span><br>Internship at Vertico Solutions</li>
+                            
+                        </ul>
+                         <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2025</span><br>BSc Hons in Information Technology from Chinhoyi University of Technology</li>
+                            <li><span>2024</span><br>Data Science 101 from IBM</li>
+                            <li><span>2024</span><br>Introduction to Python Programming from DATAQUEST</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div> 
+     <!----services-->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">What I Offer</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        I create modern, responsive, and user-friendly websites that look great on any device. My focus is on clean design, seamless navigation, and performance — ensuring your website not only looks professional but also delivers a smooth user experience. Whether it’s a personal portfolio, business site, or e-commerce platform, I design with both aesthetic appeal and functionality in mind.
+                    </p>
+                    <a href="#">Learn more</a>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>
+                        I design intuitive and engaging user experiences that make digital products easy to use and visually appealing. My approach combines user research, wireframing, and prototyping to ensure that every design decision improves usability and aligns with user needs. From layouts to color schemes, I focus on creating interfaces that are both functional and aesthetically pleasing, turning complex ideas into simple, enjoyable interactions.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Development</h2>
+                    <p>
+                        I design mobile and web applications that are sleek, user-friendly, and tailored to meet real user needs. From concept to prototype, I focus on intuitive navigation, responsive layouts, and clean interfaces that make apps both functional and enjoyable to use. My goal is to bring ideas to life through designs that balance usability, performance, and visual appeal across all devices
+                    </p>
+                    <a href="#">Learn more</a>
+
+                </div>
+            </div>
+        </div>
+     </div>
+     <!--------------portfolio------------------>
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work1.jpg">
+                    <div class="layer">
+                        <h3>Student Accommodation App</h3>
+                        <p>This app helps university students easily find accommodation from the comfort of their home</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work2.jpg">
+                    <div class="layer">
+                        <h3>Digital Solutions Platform</h3>
+                        <p>Langatech is a digital solution platforms that caters for governments, municipals and large organizations digitalizing their operations</p>
+                        <a href="https://langatech.co.zw/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work3.jpg">
+                    <div class="layer">
+                        <h3>Online Tutoring Platform</h3>
+                        <p>A platform designed for underprivileged students to access tutoring services for free</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#"class="btn">See More</a>
+        </div>
+
+     </div>
+     <!---contcat-->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>venantioshamu@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+263 772 938 661</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/venantio-shamu-4336521b0/?originalSubdomain=zw"><i class="fa-brands fa-square-linkedin"></i></a>
+                        <a href="https://www.instagram.com/venantio_kudakwashe/?next=%2F&hl=en"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/Venantio Shamu Curriculum Vitae Final.pdf" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Eamail" required>
+                        <textarea name="Message" rows="6" placeholder="Tell me a little bit about your project"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> 2025 Website by Venantio</p>
+        </div>
+     </div>
+
+
+
+
+
+
+     <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+     </script>
+    </body>
+ </html>
